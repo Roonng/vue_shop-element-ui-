@@ -56,7 +56,18 @@
       resetLoginForm() {
         this.$refs.loginFormRef.resetFields()
       },
+      test(){
+        var f1 = function(){}
+        var f2 = {}
+        var f3 = new f1()
+        console.dir(f1)
+        console.dir(f2)
+        console.dir(f3)
+      }
     },
+    mounted() {
+      this.test()
+    }
   }
 </script>
 <style lang="less" scoped>
