@@ -97,7 +97,7 @@
               },{
                 id: 206,
                 authName: "商品分类",
-                path: "goods",
+                path: "categories",
                 children: []
               }
             ],
