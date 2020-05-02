@@ -92,7 +92,7 @@
               },{
                 id: 205,
                 authName: "分类参数",
-                path: "goods",
+                path: "params",
                 children: []
               },{
                 id: 206,

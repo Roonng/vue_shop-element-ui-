@@ -8,6 +8,7 @@ const Users = () => import('../views/users/Users')
 const Rights = () => import('../views/rights/Rights')
 const Roles = () => import('../views/rights/Roles')
 const Categories = () => import('../views/goods/Categories')
+const Params = () => import('../views/goods/Params')
 
 Vue.use(VueRouter)
 
@@ -40,6 +41,9 @@ Vue.use(VueRouter)
         },{
           path: '/categories',
           component: Categories
+        },{
+          path: '/params',
+          component: Params
         }
       ]
     }
