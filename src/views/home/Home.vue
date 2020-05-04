@@ -110,7 +110,7 @@
               {
                 id: 207,
                 authName: "订单列表",
-                path: "orders",
+                path: "order",
                 children: []
               }
             ],
